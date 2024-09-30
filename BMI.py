@@ -24,7 +24,7 @@ while True:
     print("體重是 %.2f公斤" % (w))
     print("您的bmi是{:d},狀態:{:s}".format(int(bmi),state))
     answer = input("請問還要繼續運算BMI嗎?[繼續請按'Y',停止請按任意鍵]")
-    if answer.upper() != 'Y':       
+    if answer.upper() != 'Y':
         break
     print("-----------------------")
 print("程式結束")
